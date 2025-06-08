@@ -1,0 +1,48 @@
+.header {
+  width: 98%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #7B68EE, #FF00C8);
+  padding: 0 1rem;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+}
+
+.header__logo-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header__logo {
+  height: 80px; /* 12 * 4px (tailwind h-12) */
+  width: auto;
+  object-fit: contain;
+}
+
+.header__user-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 2rem;
+}
+
+.header__username {
+  color: white;
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500;
+}
+
+.header__logout-btn {
+  background-color: #1E90FF;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+}

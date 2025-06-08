@@ -1,0 +1,40 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(to right, #7B68EE, #FF00C8);
+  color: white;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  padding: 1rem 0;
+}
+
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .footer__container {
+    flex-direction: row;
+  }
+}
+
+.footer__copyright {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.footer__privacy-link {
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer__privacy-link:hover {
+  color: black;
+}
